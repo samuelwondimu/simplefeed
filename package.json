@@ -37,7 +37,7 @@
   },
   "scripts": {
     "start": "ts-node ./src/server.ts",
-    "dev": "ts-node ./src/server.ts",
+    "dev": "nodemon --exec ts-node ./src/server.ts",
     "lint": "tslint -p tsconfig.json -c tslint.json",
     "test": "jest"
   },

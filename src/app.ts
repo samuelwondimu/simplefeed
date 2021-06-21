@@ -52,7 +52,7 @@ class App {
         useFindAndModify: false,
       })
       .then((result) => {
-        console.log('Mongo Connected', result);
+        console.log('Mongo Connected');
       })
       .catch((error) => {
         console.log(error);
