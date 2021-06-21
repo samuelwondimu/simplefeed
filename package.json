@@ -36,7 +36,7 @@
     "typescript": "^3.9.10"
   },
   "scripts": {
-    "heroku-prebuild": "npm install typescript -g",
+    "heroku-prebuild": "npm install typescript -g ts-node -g",
     "start": "ts-node ./src/server.ts",
     "dev": "nodemon --exec ts-node ./src/server.ts",
     "lint": "tslint -p tsconfig.json -c tslint.json",
